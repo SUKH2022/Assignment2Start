@@ -1,8 +1,8 @@
 // constants for query selector form the html ids and classes
-const bgColorInput = document.querySelector('#customNumber'); 
-const studentIdParagraph = document.querySelector('#myStudentId'); 
-const customBgColorButton = document.querySelector('.custColor'); 
-const randomBgColorButton = document.querySelector('.randColor'); 
+const bgColorInput = document.querySelector('#customNumber');
+const studentIdParagraph = document.querySelector('#myStudentId');
+const customBgColorButton = document.querySelector('.custColor');
+const randomBgColorButton = document.querySelector('.randColor');
 const colorSelect = document.querySelector('#imageSelect');
 const changeImageButton = document.querySelector('#images');
 
@@ -47,7 +47,7 @@ function addList() {
     // Tip: you might have to check length condition so that the list does not keep growing when clicked
     // Tip: use createElement and appendChild inside every for loop to add elements to select list from array 
     // giving the limit of 5 options for 5 img
-    if (colorSelect.options.length < 5) { 
+    if (colorSelect.options.length < 5) {
         // Create an option elem
         const option = document.createElement('option');
         // Set the option's value with length +1
